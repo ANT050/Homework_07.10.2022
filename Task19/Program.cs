@@ -24,13 +24,13 @@ void GetPalindrome(long number)
     }
 
     if (incomingNnumber == balance)
-        Console.Write($"Число {incomingNnumber} - является палиндромом");
+        Console.WriteLine($"Число {incomingNnumber} - является палиндромом\n");
     else
-        Console.Write($"Число {incomingNnumber} - не является полиндромом");
+        Console.WriteLine($"Число {incomingNnumber} - не является полиндромом\n");
 }
 
 Console.Write("Введите число: ");
-long number = Convert.ToInt64(Console.ReadLine());
+long number = Convert.ToInt64(Console.ReadLine()); 
 
 GetPalindrome(number);
 
