@@ -8,6 +8,37 @@
 
 23432 -> да*/
 
+/*ПЕРВЫЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ*/
+
+string s = String.Empty;
+Console.WriteLine(s);
+
+void GetPalindrome(long number)
+{
+    long remains, balance = 0, incomingNnumber;
+
+    for (incomingNnumber = number; number != 0; number = number / 10)
+    {
+        remains = number % 10; // остаток
+        balance = balance * 10 + remains; // сумма остатков
+    }
+
+    if (incomingNnumber == balance)
+        Console.Write($"Число {incomingNnumber} - является палиндромом");
+    else
+        Console.Write($"Число {incomingNnumber} - не является полиндромом");
+}
+
+Console.Write("Введите число: ");
+long number = Convert.ToInt64(Console.ReadLine());
+
+GetPalindrome(number);
+
+
+/*ВТОРОЙ СПОСОБ РЕШЕНИЯ ДАННОГО УСЛОВИЯ*/
+
+/*
+
 string s = String.Empty;
 Console.WriteLine(s);
 
@@ -37,3 +68,4 @@ else
 
 Console.WriteLine(s);
 
+*/
