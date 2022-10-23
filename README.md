@@ -30,7 +30,7 @@
 
 - A (7,-5, 0); B (1,-1,9) -> 11.53
 
-[Перейти к решению](https://github.com/ANT050/Homework_07.10.2022/blob/main/Task21/Program.cs "Открыть")
+:point_right: [Перейти к решению](https://github.com/ANT050/Homework_07.10.2022/blob/main/Task21/Program.cs "Открыть")
 
 ---
 
@@ -42,6 +42,6 @@
 
 - 5 -> 1, 8, 27, 64, 125
 
-[Перейти к решению](https://github.com/ANT050/Homework_07.10.2022/blob/main/Task23/Program.cs "Открыть")
+:point_right: [Перейти к решению](https://github.com/ANT050/Homework_07.10.2022/blob/main/Task23/Program.cs "Открыть")
 
 ---
