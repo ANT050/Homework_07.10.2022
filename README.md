@@ -18,7 +18,7 @@
 
 - 23432 -> да
 
-[Перейти к решению](https://github.com/ANT050/Homework_07.10.2022/blob/main/Task19/Program.cs "Открыть")
+:point_right: [Перейти к решению](https://github.com/ANT050/Homework_07.10.2022/blob/main/Task19/Program.cs "Открыть")
 
 ---
 
